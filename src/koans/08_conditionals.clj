@@ -34,14 +34,14 @@
                         :else :your-road)))
 
   "Or your fate may be sealed"
-  (= 'doom (if-not (zero? 0)
+  (= 'more-doom (if-not (zero? 0)
           'doom
           'more-doom))
 
   "In case of emergency, go fast"
-  (= "pretty fast"
+  (= "is that even exercise?"
      (explain-exercise-velocity :run))
 
   "But admit it when you don't know what to do"
-  (= "pretty slow"
+  (= "is that even exercise?"
      (explain-exercise-velocity :watching-tv)))
